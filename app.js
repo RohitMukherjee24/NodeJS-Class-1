@@ -3,7 +3,7 @@ var app=express();
 
 var routes=require('./routes/route.js');
 
-app.set('view engine','ejs');
+app.set('view engine','jade');
 
 app.use(express.static(__dirname + '/public'));
 
